@@ -10,6 +10,7 @@ public class Main {
         Class<?> cl = obj.getClass();
         //zmiana na drugim konc
         //zmiana repo 1
+        //zmianadruga repo 1
     }
 }
 interface Interfejs {
