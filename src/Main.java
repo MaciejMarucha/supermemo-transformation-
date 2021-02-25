@@ -9,7 +9,7 @@ public class Main {
         Object obj = interfejs;
         Class<?> cl = obj.getClass();
         //zmiana na drugim konc
-
+        //zmiana repo 1
     }
 }
 interface Interfejs {
