@@ -8,7 +8,7 @@ public class Main {
         System.out.println(Klasaimplementujaca.class);
         Object obj = interfejs;
         Class<?> cl = obj.getClass();
-
+        //zmiana na drugim konc
 
     }
 }
