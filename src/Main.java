@@ -7,6 +7,7 @@ public class Main {
 
         System.out.println("pull");
         System.out.println("Zmiana na drugim");
+        System.out.println("elo");
     }
 }
 
