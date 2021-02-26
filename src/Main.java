@@ -4,11 +4,14 @@ import java.util.stream.Collectors;
 public class Main {
 
     public static void main(String[] args) {
+<<<<<<< Updated upstream
         Interfejs interfejs = new Klasaimplementujaca();
         System.out.println(Klasaimplementujaca.class);
         Object obj = interfejs;
         Class<?> cl = obj.getClass();
 
+=======
+>>>>>>> Stashed changes
 
     }
 }
