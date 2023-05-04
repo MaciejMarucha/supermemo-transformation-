@@ -13,8 +13,10 @@ public class Main {
     public static void main(String args[]) throws FileNotFoundException {
 
         try {
-            List<String> allLines = Files.readAllLines(Paths.get("staryPlik.txt"));
-            PrintWriter writer = new PrintWriter(Paths.get("nowyPlik.txt").toFile(), StandardCharsets.UTF_8);
+            String fileName = args[0];
+            String newFileName = args[1];
+            List<String> allLines = Files.readAllLines(Paths.get(fileName));
+            PrintWriter writer = new PrintWriter(Paths.get(newFileName).toFile(), StandardCharsets.UTF_8);
             for (int i = 0, lineNumber = 1; i < allLines.size(); i++) {
                 if (!isNumeric(allLines.get(i))) {
                     if (!allLines.get(i).equals("")) {
